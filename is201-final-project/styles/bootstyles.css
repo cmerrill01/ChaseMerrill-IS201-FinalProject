@@ -1,0 +1,76 @@
+/* Chase Merrill 12/15/2021 */
+
+body {
+    background-image: url(../assets/images/purpleGalaxy.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.common {
+    /*border: solid black 5px;*/
+    position: absolute;
+}
+
+.navigation {
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+    text-align: center;
+    background-color:#e6a8567a;
+}
+
+.tableau {
+    top: 250px;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+.footer {
+    position: fixed;
+    background-color: #e6a8567a;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 10px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+.navigation-text {
+    color: #e6a756;
+    font-size: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #e6a756;
+}
+
+a {
+    color: #e6a756;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b88645;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.caption {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #e6a756;
+    background-color: #e6a8567a;
+}
+
+h1 {
+    color: #e6a756;
+    text-align: center;
+}
